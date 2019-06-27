@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9f182e</color>
+    <color name="colorPrimaryDark">#86091b</color>
+    <color name="colorAccent">#fff</color>
+    <color name="color_es3a">#7FB8D2</color>
+    <color name="color_es3aDark">#7AB0CF</color>
+    <color name="cursor">#9f182e</color>
+    <color name="textColorEventsDetails">#B4BAC0</color>
+    <color name="textColorEventsDesc">#2B3D4D</color>
+</resources>

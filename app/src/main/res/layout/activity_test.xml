@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        tools:context="aapg.aapg.aapgsusc.voterapp.Test.TestActivity">
+
+
+        <EditText
+            android:id="@+id/competitor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="Enter Your Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#F2F2E3" />
+
+        <RadioGroup
+            android:id="@+id/Q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1) ……… is used to divert the fluids of a well"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Choke manifold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" RCD"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Backpressure pump "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2) The main difference between the OVD and MPD is the:"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text=" mud density in MPD is kept below pore pressure"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" closed system"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" no difference"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="3) The first stage of reservoir characterization is to define the reservoir’s"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" small scale structure"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" large scale structure"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" fluid flow simulation"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="4) Which of the bellow Offshore rigs is not a floating rig?"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Semi-submersible Rigs"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Drill Ships"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Jack-up Rigs"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="5) ………. Is a technique of MPD and used when fluid loss problems are encountered"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" CPHP"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Flow control"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" PMCD"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="6) Which of the following is not a Subsea Completion tree?"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Vertical Christmas Trees (VXT)"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Horizontal Christmas Trees (HXT)"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Diagonal Christmas Trees DXT"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="7) ……… is a reservoir whose properties are randomly distributed all over the entire"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Homogeneous reservoir"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Heterogeneous reservoir"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Isotropic reservoir"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="8) ………. refer to environment of deposition and lithology"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Trapping mechanisms"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Facies changes"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" Porosity variations"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="9) What is the record for the deepest Subsea Tree?"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" 1,500 Meters"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" 2,300 Meters"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+
+            <RadioButton
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:text=" 3,000 Meters"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>

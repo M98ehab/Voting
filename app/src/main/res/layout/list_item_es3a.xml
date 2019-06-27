@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_vote"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:gravity="center_vertical"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:checkMarkTint="@color/textColorEventsDesc"
+    android:paddingLeft="6dip"
+    android:paddingRight="6dip"
+    android:textColor="@color/textColorEventsDesc"
+    android:theme="@style/AppTheme.Cursor"
+    android:text="Ahmed"
+    />
+

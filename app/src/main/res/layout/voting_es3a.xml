@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/cover_es3a"
+    tools:context="aapg.aapg.aapgsusc.voterapp.MainActivity">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/cover_vote"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--tools:src="@drawable/back"-->
+        <!--android:contentDescription="TODO" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_marginTop="70dp"
+            android:id="@+id/list_es3a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:divider="@color/textColorEventsDesc"
+            android:dividerHeight="1dp"
+
+            android:choiceMode="singleChoice"></ListView>
+        <View
+            android:background="@color/textColorEventsDesc"
+            android:layout_width="fill_parent"
+            android:layout_marginStart="15dp"
+            android:layout_height="1dp"
+            />
+
+        <Button
+            android:id="@+id/vote_es3a"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/color_es3a"
+            android:text="Vote"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_indicator_es3a"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:indeterminateTint="@color/color_es3a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
